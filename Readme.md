@@ -1,6 +1,8 @@
-Project Title
+Wimbledon Sentiment Analysis
 
-One Paragraph of project description goes here
+This app has been developed to analyize the standings of a tennis player among his/her fans.
+We use the twitter API to analyize the data and show the results in the form of Pie charts, Bar and Live(real time) graphs.
+Please keep in mind that this software may take time at certain points, for example, if it does not fetch a live tweet, So kindly be patient while.
 
 Getting Started
 
@@ -14,14 +16,11 @@ Give examples
 Installing
 
 A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-Give the example
-And repeat
-
-until finished
-End with an example of getting some data out of the system or using it for a little demo
+1. Run the MainGui.py
+2. You can
+    =>choose a tennis player from preexisting data of wimbledon 2015: click the name of the player from the drop-down list on the right hand side of the screen. 
+    => You can also fetch Live tweets of Roger Federer, Novak Djokovic, Serena Williams, and Garbine Muguruza, from within thier Specific pages, by clicking the "Live Graph" radio Button
+    => You can also analyze any other player's live tweet, enter a player\'s name on the box available on the top left of screen. ')
 
 Running the tests
 
@@ -56,7 +55,7 @@ We use SemVer for versioning. For the versions available, see the tags on this r
 
 Authors
 
-Billie Thompson - Initial work - PurpleBooth
+Digvijay Naruka - Initial work -
 See also the list of contributors who participated in this project.
 
 License
